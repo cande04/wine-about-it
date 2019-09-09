@@ -4,6 +4,8 @@ import { Route } from 'react-router-dom'
 
 import Header from './header/Header'
 import Wines from './wine/Wines'
+import SearchByFood from './wine/SearchByFood'
+import WineRecommendations from './wine/WineRecommendations'
 
 import Alert from 'react-bootstrap/Alert'
 
@@ -37,6 +39,8 @@ class App extends Component {
           <Route path='/wine-pairing-list' render={() => (
             <Wines alert={this.alert} />
           )} />
+          <Route path="/find-wine" component={SearchByFood} />
+          <Route path="/recommendations/:wine" component={WineRecommendations} />
         </main>
       </React.Fragment>
     )

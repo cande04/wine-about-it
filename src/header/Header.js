@@ -6,6 +6,7 @@ import './Header.scss'
 const alwaysOptions = (
   <React.Fragment>
     <Link to="/wine-pairing-list">Wine Pairings</Link>
+    <Link to="/find-wine">Find Wine</Link>
   </React.Fragment>
 )
 
