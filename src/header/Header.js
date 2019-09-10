@@ -7,6 +7,7 @@ const alwaysOptions = (
   <React.Fragment>
     <Link to="/wine-pairing-list">Wine Pairings</Link>
     <Link to="/find-wine">Find Wine</Link>
+    <Link to="/find-food">Find Dish Pairings</Link>
   </React.Fragment>
 )
 
